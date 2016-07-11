@@ -1,0 +1,146 @@
+@import './neat/neat.scss';
+@import './bourbon/bourbon.scss';
+
+
+
+
+
+h1 {
+
+  background: #75585a;
+width: 100%;
+height:100px;
+  font-family: Avenir, helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+
+.hidden {
+    display: none;
+    background: red;
+}
+
+
+
+main{
+  width:100%;
+  @include outer-container(100%);
+  padding-bottom: 80px;
+  font-family: Avenir, helvetica, sans-serif;
+
+}
+
+.firstPageDiv{
+    @include span-columns(4);
+
+
+}
+
+.firstPageDiv:nth-of-type(3n){
+  @include omega();
+}
+
+.first_page img {
+
+  height:300px;
+  width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.first_page a{
+  top: 440px;
+position: relative;
+    left: 150px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+.animals img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+.baby img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.dino img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+
+.dino img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+.food img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.nature img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.travel img {
+@include span-columns(4);
+@include omega();
+  height:300px;
+  //width:100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+    padding: 20px;
+    margin-top: 100px;
+}

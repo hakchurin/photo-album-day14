@@ -1,0 +1,156 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+h1 {
+  background: #75585a;
+  width: 100%;
+  height: 100px;
+  font-family: Avenir, helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px; }
+
+.hidden {
+  display: none;
+  background: red; }
+
+main {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  font-family: Avenir, helvetica, sans-serif; }
+  main::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.firstPageDiv {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .firstPageDiv:last-child {
+    margin-right: 0; }
+
+.firstPageDiv:nth-of-type(3n) {
+  margin-right: 0; }
+
+.first_page img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+
+.first_page a {
+  top: 440px;
+  position: relative;
+  left: 150px;
+  text-decoration: none;
+  font-size: 20px; }
+
+.animals img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .animals img:last-child {
+    margin-right: 0; }
+
+.baby img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .baby img:last-child {
+    margin-right: 0; }
+
+.dino img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .dino img:last-child {
+    margin-right: 0; }
+
+.dino img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .dino img:last-child {
+    margin-right: 0; }
+
+.food img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .food img:last-child {
+    margin-right: 0; }
+
+.nature img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .nature img:last-child {
+    margin-right: 0; }
+
+.travel img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding: 20px;
+  margin-top: 100px; }
+  .travel img:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
